@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Prediction Result</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+        
+    </head>
+    <body>
+        <div class="result-container">
+            <h2>Prediction Result</h2>
+<p>Your Prediction</p>
+<h3 style="color: {% if prediction == 1 %}red{% else %}green{% endif %};">
+    Risk of Heart Disease: {% if prediction == 1 %}Yes{% else %}No{% endif %}
+</h3>
+
+<!-- ECG Signal Graph in a Box -->
+<div class="graph-container">
+    <h3>ECG Signal Graph</h3>
+    <img src="{{ ecg_path }}" alt="ECG Signal" class="graph-image">
+</div>
+
+<!-- Other Graphs -->
+<div class="graph-container">
+    <h3>Heart Disease Risk Factor Analysis</h3>
+    <img src="{{ risk_path }}" alt="Risk Factor Pie Chart" class="graph-image">
+</div>
+
+<div class="graph-container">
+    <h3>Cholesterol Levels vs Age</h3>
+    <img src="{{ cholesterol_path }}" alt="Cholesterol vs Age Scatter Plot" class="graph-image">
+</div>
+
+<div class="graph-container">
+    <h3>Bar Chart for Given Data</h3>
+    <img src="{{ graph_path }}" alt="Heart Disease Prediction Graph" class="graph-image">
+</div>
+
+<style>
+    .graph-container {
+        border: 10px solid <i class="fa fa-bullseye" aria-hidden="true"></i>;
+        border-radius: 100px;
+        padding: 15px;
+        margin: 20px 0;
+        background-color: <i class="fa fa-black-tie" aria-hidden="true"></i>;
+        text-align: center;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .graph-image {
+        width: 80%;
+        max-width: 600px;
+        border-radius: 5px;
+    }
+</style>
+
+
+            <br><br>
+            <a href="/" class="btn">Go Back</a>
+        </div>
+    </body>
+    
+</html>

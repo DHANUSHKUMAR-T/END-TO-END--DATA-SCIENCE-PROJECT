@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Heart Disease Prediction</h2>
+        <form method="POST" action="/predict">
+            <div class="input-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+            </div>
+
+            <div class="input-group">
+                <label for="sex">Sex (1 = Male, 0 = Female):</label>
+                <input type="number" id="sex" name="sex" required>
+            </div>
+
+            <div class="input-group">
+                <label for="cp">Chest Pain Type (0 to 3):</label>
+                <input type="number" id="cp" name="cp" required>
+            </div>
+
+            <div class="input-group">
+                <label for="trestbps">Resting Blood Pressure:</label>
+                <input type="number" id="trestbps" name="trestbps" required>
+            </div>
+
+            <div class="input-group">
+                <label for="chol">Cholesterol:</label>
+                <input type="number" id="chol" name="chol" required>
+            </div>
+
+            <div class="input-group">
+                <label for="fbs">Fasting Blood Sugar (1 = True, 0 = False):</label>
+                <input type="number" id="fbs" name="fbs" required>
+            </div>
+
+            <div class="input-group">
+                <label for="restecg">Resting Electrocardiographic Results (0 to 2):</label>
+                <input type="number" id="restecg" name="restecg" required>
+            </div>
+
+            <div class="input-group">
+                <label for="thalach">Max Heart Rate Achieved:</label>
+                <input type="number" id="thalach" name="thalach" required>
+            </div>
+
+            <div class="input-group">
+                <label for="exang">Exercise Induced Angina (1 = Yes, 0 = No):</label>
+                <input type="number" id="exang" name="exang" required>
+            </div>
+
+            <div class="input-group">
+                <label for="oldpeak">Depression Induced by Exercise:</label>
+                <input type="number" id="oldpeak" name="oldpeak" required>
+            </div>
+
+            <div class="input-group">
+                <label for="slope">Slope of ST Segment (0 to 2):</label>
+                <input type="number" id="slope" name="slope" required>
+            </div>
+
+            <div class="input-group">
+                <label for="ca">Number of Major Vessels (0 to 3):</label>
+                <input type="number" id="ca" name="ca" required>
+            </div>
+
+            <div class="input-group">
+                <label for="thal">Thalassemia (3 = Normal, 6 = Fixed Defect, 7 = Reversible Defect):</label>
+                <input type="number" id="thal" name="thal" required>
+            </div>
+
+            <button type="submit" class="btn">Predict</button>
+        </form>
+    </div>
+</body>
+</html>
