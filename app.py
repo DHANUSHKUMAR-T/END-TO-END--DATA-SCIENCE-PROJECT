@@ -86,4 +86,4 @@ def predict():
     return render_template('result.html', prediction=prediction[0], graph_path="static/heart_disease_graph.png", ecg_path=ecg_path, risk_path=risk_path, cholesterol_path=cholesterol_path)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False,host='0.0.0.0')
