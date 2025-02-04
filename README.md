@@ -23,7 +23,7 @@ USING FLASK OR FASTAPI.**
 APP SHOWCASING THE MODEL'S
 FUNCTIONALITY.**
 #
-# This Project deployed web app link here you can use this** https://tdhanushkumar-task-3.hf.space
+# This Project deployed web app link here you can use this ( https://tdhanushkumar-task-3.hf.space )
 
 #
 **📘 Description**
