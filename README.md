@@ -23,7 +23,9 @@ USING FLASK OR FASTAPI.**
 APP SHOWCASING THE MODEL'S
 FUNCTIONALITY.**
 #
-# This Project deployed web app link here you can use this ( https://tdhanushkumar-task-3.hf.space )
+# 🔗 Live Demo
+
+🌐 This project is deployed! You can use it here: Live App ( https://tdhanushkumar-task-3.hf.space )
 
 #
 **📘 Description**
@@ -75,17 +77,18 @@ This project demonstrates a complete end-to-end data science workflow, covering 
 
 *The web app takes input from users and provides predictions in real-time. (link : https://tdhanushkumar-task-3.hf.space)
 #
-**OUTPUT IMAGES**
+**📸OUTPUT IMAGES**
 
-*1)After clicking this like https://tdhanushkumar-task-3.hf.space
+*1️⃣ After clicking this link Live App( https://tdhanushkumar-task-3.hf.space )
 
 ![Image](https://github.com/user-attachments/assets/f4930f1e-236d-4566-8b91-ece78504cb5a)
 
-*2)After enter the data click the button "Predict"
+*2️⃣ Enter the data and click the "Predict" button
 
 ![Image](https://github.com/user-attachments/assets/9a68391c-e6f8-44a8-939a-6a0e579e961e)
 
-*3)you can see the result as
+*3️⃣ View the Prediction Result
+
               |          Prediction Result           |
               
               |           Your Prediction            |
@@ -97,7 +100,7 @@ This project demonstrates a complete end-to-end data science workflow, covering 
               
 ![Image](https://github.com/user-attachments/assets/4b1ceabb-887f-4de0-aa38-f78b66bf8969)
 
-*4)For reference i put some analysed charts
+*4)Reference Charts for Analysis
 
 ![Image](https://github.com/user-attachments/assets/689dd38d-2250-421f-97b5-501efdc50bfc)
 
