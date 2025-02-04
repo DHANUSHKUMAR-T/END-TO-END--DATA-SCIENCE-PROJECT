@@ -74,3 +74,6 @@ This project demonstrates a complete end-to-end data science workflow, covering 
 *The trained model is deployed using Flask 
 
 *The web app takes input from users and provides predictions in real-time. (link : https://tdhanushkumar-task-3.hf.space)
+#
+**OUTPUT IMAGES**
+After clicking this like https://tdhanushkumar-task-3.hf.space
