@@ -36,16 +36,19 @@ This project demonstrates a complete end-to-end data science workflow, covering 
  
  **✨ Features**
  
-*Data Collection & Cleaning: Handling missing values, outliers, and feature engineering.
+✅ Data Collection & Cleaning: Handling missing values, outliers, and feature engineering.
 
-*Exploratory Data Analysis (EDA): Visualizing patterns and relationships in data.
+✅ Exploratory Data Analysis (EDA): Visualizing patterns and relationships in data.
 
-*Model Building: Implementing machine learning models for prediction.
+✅ Model Building: Implementing machine learning models for prediction.
 
-*Model Evaluation: Analyzing model performance using appropriate metrics.
+✅ Model Evaluation: Analyzing model performance using appropriate metrics.
 
-*Deployment: Deploying the model using Flask
+✅ Deployment: Deploying the model using Flask
+
+
 #
+
 **🔧 Technologies Used**
 
 *Programming Language:* Python
