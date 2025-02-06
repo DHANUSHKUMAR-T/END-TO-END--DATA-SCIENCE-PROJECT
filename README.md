@@ -100,7 +100,7 @@ This project demonstrates a complete end-to-end data science workflow, covering 
               
 ![Image](https://github.com/user-attachments/assets/4b1ceabb-887f-4de0-aa38-f78b66bf8969)
 
-*4)Reference Charts for Analysis
+4️⃣ Reference Charts for Analysis
 
 ![Image](https://github.com/user-attachments/assets/689dd38d-2250-421f-97b5-501efdc50bfc)
 
