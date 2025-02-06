@@ -94,15 +94,10 @@ This project demonstrates a complete end-to-end data science workflow, covering 
 
               |          Prediction Result           |
 
-              ----------------------------------------
               
               |           Your Prediction            |
-
-              ---------------------------------------
               
               |                                      |
-
-              ----------------------------------------
               
               |  Risk of Heart Disease: No (or) Yes  |
               
